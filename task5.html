@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head >
+</head>
+<body>
+    <center>
+<h1 style="color:blue;">Registration form</h1> </center>
+<form action="action_page.php" method="post">
+    <center>
+    <table border="1" bordercolor="black" bgcolor="white" cellpadding="0" cellspacing="0" width="50%">
+    <tr>
+    <th><label for="first_name">First Name</label></th>
+    <td><input type="text" name="first_name" id="first_name" required></td>
+</tr>
+  
+<tr>
+  
+    <th><label for="last_name">Last Name</label></th>
+    <td><input type="text" name="last_name" id="last_name" required></td>
+</tr>
+    <tr>
+    <th><label for="email">Email</label></th>
+        <td><input type="email" name="email" id="email" required></td>
+</tr>
+    <tr>
+        <th><label for="password">Password</label></th>
+            <td><input type="password" name="password" id="password" required></td>
+</tr>
+    <tr>
+        <th><label for="re_password">Re-enter Password</label></th>
+            <td><input type="password" name="re_password" id="re_password" required></td>
+</tr>
+    <tr>
+        <th><label for="gender">Gender</label></th>
+            <td><input type="radio" name="gender" id="male" value="male" checked> Male
+                <input type="radio" name="gender" id="female" value="female"> Female</td>
+</tr>
+    <tr>
+        <th><label for="age">Age</label></th>
+            <td><input type="number" name="age" id="age" required></td>
+</tr>
+    <tr>
+        <th><label for="phone_number">Phone Number</label></th>
+            <td><input type="tel" name="phone_number" id="phone_number" required></td>
+</tr>
+    <tr>
+        <th><label for="address">Address</label></th>
+            <td><textarea></textarea></td>
+</tr>
+    <tr>
+        <th><label for="state">State</label></th>
+            <td><input type="text" name="state" id="state" required></td>
+</tr>
+    <tr>
+        <th><label for="country">Country</label></th>
+            <td><select name="country" id="country">
+      <option value="India">India</option>
+      <option value="United States">United States</option>
+      <option value="United Kingdom">United Kingdom</option>
+      <option value="China">China</option>
+      <option value="Japan">Japan</option>
+    </select></td>
+</tr>
+    <tr>
+        <th><label for="languages_known">Languages Known</label></th>
+            <td><input type="checkbox" name="languages_known[]" value="English"> English
+    <input type="checkbox" name="languages_known[]" value="Kannada"> Kannada
+    <input type="checkbox" name="languages_known[]" value="Hindi"> Hindi
+    <input type="checkbox" name="languages_known[]" value="Telugu"> Telugu</td>
+</tr>
+    <tr>
+    <td colspan="2"><input type="checkbox" name="terms_and_conditions" id="terms_and_conditions" required> Hereby I declare all the given details are true</td>
+</tr>
+<tr>
+    <td align="right" colspan="2">
+        <a href="https://www.ethnus.com">Log into Ethnus</a>
+    </td>
+</tr>
+
+      
+
+</table><br>
+<button type="submit" value="Submit">Register</button>
+</center>
+</form>
+</body>
+</html>
